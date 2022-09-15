@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Пасека</title>
+</head>
+
+<body>
+  <header class="header grid container">
+    <h1 class="header__title flex">Пасека Гуляево</h1>
+    <nav class="nav">
+      <ul class="nav__list flex">
+        <li class="nav__item hand"><a href="#hero">О нас</a></li>
+        <li class="nav__item hand"><a href="#slider">Галерея</a></li>
+        <li class="nav__item hand"><a href="#contacts">Контакты</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="main">
+    <section class="hero container" id="hero">
+      <h2 class="hero__title flex">Наша Пасека</h2>
+      <p class="hero__descr">Добыча мёда и воска — древнейший человеческий промысел. Искусственные ульи фигурируют на
+        изображениях Древнего Египта и других стран Древнего Востока начиная с 3-го тысячелетию до н. э. Древнейшая
+        пасека, найденная на данный момент, состоит из глиняных ульев характерной для ближневосточных изображений
+        цилиндрической формы, и датируется X—IX веками до н. э. (раскопки в Тель-Рхов (англ. Tel-Rehov), Израильское
+        царство)[1].
+
+        В богатой лесами Руси добыча мёда первоначально осуществлялась бортниками (от слова «борть» — дупло дерева),
+        добывавшими мёд диких пчёл из естественных или специально выдолбленных в деревьях дупел. С расширением лесных
+        вырубок бортникам приходилось для спасения пчелиных семей вырезать куски деревьев вместе с дуплами и вешать
+        дуплянки ближе к жилью либо в благоприятных для медосбора участках леса. Колода на пасеке, однако, ещё долго
+        оставалась диким дуплом.
+
+        Первый рамочный улей был изобретён в 1814 году Петром Прокоповичем, уроженцем деревни Пальчики на Черниговщине.
+        В 1851 году Лангстрот сконструировал улей, открывающийся сверху. Резко увеличив продуктивность пасек, улей
+        повсеместно вытеснил дуплянки[2]. Современные ульи имеют более десятка различных конструкций.</p>
+    </section>
+    <section class="slider container">
+      <div class="slider__block flex" id="slider">
+        <div class="slider__item">
+          <img src="./img/01.jpg" alt="Наша Пасека">
+        </div>
+        <div class="slider__item">
+          <img src="./img/02.jpg" alt="Наша Пасека">
+        </div>
+        <div class="slider__item">
+          <img src="./img/03.jpg" alt="Наша Пасека">
+        </div>
+        <div class="slider__item">
+          <img src="./img/01.jpg" alt="Наша Пасека">
+        </div>
+        <div class="slider__item">
+          <img src="./img/02.jpg" alt="Наша Пасека">
+        </div>
+      </div>
+      <div class="controls flex">
+        <button class="slider__btn hand" id="btnPrev">Назад</button>
+        <button class="slider__btn hand" id="btnNext">Вперед</button>
+      </div>
+    </section>
+    <section class="contacts container" id="contacts">
+      <h2 class="contacts__tile">Как нас найти:</h2>
+      <p class="contacts__link">
+        <a class="hand" href="tel:+91291291212">+7(912)91291212</a>
+        <a class="hand" href="mailto:">mailto@ya.ru</a>
+      </p>
+      <div class="contacts-map contacts-map__zise"><a href="https://yandex.ru/maps?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Яндекс Карты</a><a href="https://yandex.ru/maps/?ll=51.651049%2C56.855976&utm_medium=mapframe&utm_source=maps&z=15" style="color:#eee;font-size:12px;position:absolute;top:14px;">Яндекс Карты</a><iframe src="https://yandex.ru/map-widget/v1/-/CCUVNRHflB" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>
+      </div>
+    </section>
+  </main>
+  <footer class="footer container">
+    <nav class="nav">
+      <ul class="nav__list flex">
+        <li class="nav__item hand"><a href="#hero">О нас</a></li>
+        <li class="nav__item hand"><a href="#slider">Галерея</a></li>
+      </ul>
+    </nav>
+  </footer>
+  <video autoplay loop muted class="bgvideo" id="bgvideo">
+    <source src="./video/20150331_140813A.mp4" type="video/mp4">
+    <source src="./video/20150331_140813A.webm" type="video/webm">
+  </video>
+  <!-- <video id="nubexVideo" width="100%" height="auto" loop="loop" autoplay="autoplay" preload="auto">
+    <source src="nubex.mp4"></source>
+    <source src="nubex.webm" type="video/webm"></source>
+ </video> -->
+  <script src="./js/main.js"></script>
+</body>
+
+</html>

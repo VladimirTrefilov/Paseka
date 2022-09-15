@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  font-family: 'Cormorant Infant', serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+  background-image: url(https://images.wallpaperscraft.ru/image/single/soty_med_pattern_133740_3840x2400.jpg);
+  background-size: cover;
+  color: white;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.grid {
+  display: grid;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+.hidden {
+  display: none;
+}
+
+.bgvideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -9999;
+}
+
+.hand:focus {
+  transition: 0.5s ease-in-out;
+  outline: 1px solid yellow;
+}
+
+.hand:hover {
+  transition: 0.5s ease-in-out;
+  background-color:inherit;
+  color: yellow;
+}
+
+.nav {}
+
+.nav__list {
+  padding-top: 30px;
+  justify-content: space-around;
+}
+
+.nav__item {
+  font-size: 20px;
+}
+
+.header {}
+
+.header__title {
+  padding-top: 60px;
+  font-size: 50px;
+}
+
+.hero {}
+
+.hero__title {
+  padding-top: 30px;
+  font-size: 35px;
+}
+
+.hero__descr {
+  padding-top: 30px;
+  letter-spacing: 2px;
+}
+
+.slider {}
+
+.slider__block {
+  padding-top: 30px;
+}
+
+.slider__item {}
+
+.slider__btn {
+  margin: 10px;
+  padding: 5px;
+  background-color: yellow; 
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.contacts__tile {
+
+}
+
+.contacts__link {
+  max-width: 150px;
+  padding: 10px;
+  margin-left: 30px;
+}
+
+.contacts-map {
+  position:relative;
+  overflow:hidden;
+}
+
+.contacts-map__zise {
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.footer {
+  margin-bottom: 30px;
+}
