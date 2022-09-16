@@ -12,7 +12,7 @@ body {
   font-size: 20px;
   background-image: url(https://images.wallpaperscraft.ru/image/single/soty_med_pattern_133740_3840x2400.jpg);
   background-size: cover;
-  color: white;
+  color: aqua;
 }
 
 ul {
@@ -83,7 +83,9 @@ a {
 .header {}
 
 .header__title {
+  height: 90vh;
   padding-top: 60px;
+  align-items: flex-start;
   font-size: 50px;
 }
 
